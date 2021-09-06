@@ -1,0 +1,124 @@
+.clase__menu {
+  font-size: 22px;
+}
+
+body {
+  font-family: Tahoma;
+  overflow-x: hidden;
+}
+
+#menu li {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.carousel-inner {
+  max-height: 39rem;
+}
+
+#parrafo {
+  color: brown;
+  font-family: cursive;
+}
+
+@media (max-widht: 768px) {
+  #intro {
+    width: 90%;
+  }
+}
+
+#icon {
+  font-size: 30px;
+}
+
+#foot {
+  font-family: Geneva;
+}
+
+.parrafo_footer {
+  font-family: Geneva;
+}
+
+.parrafo_article {
+  text-align: center;
+}
+
+.estilo_parrafo {
+  color: brown;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.estilo_parrafo_dos {
+  font-size: 14px;
+}
+
+.h_2 {
+  font-size: 24px;
+}
+
+.article {
+  text-align: justify;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.form {
+  margin-bottom: 15px;
+  font-family: Geneva;
+}
+
+.h_3 {
+  margin-bottom: 20px;
+  font-family: Geneva;
+  color: darkblue;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.formu_cont {
+  padding-top: 110px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 20px;
+}
+
+.h2formu {
+  color: black;
+  font-size: 40px;
+  font-family: Geneva;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.contact-box {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+
+.bt_formu {
+  background-color: skyblue;
+  margin-bottom: 40px;
+  font-family: Geneva;
+}
+
+#contact-text {
+  text-align: left;
+  font-family: Geneva;
+}
+
+.icono {
+  width: 130px;
+  height: 120px;
+}
+
+.h1_index {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.h_1 {
+  font-size: 24px;
+}
