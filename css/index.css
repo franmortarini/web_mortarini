@@ -122,3 +122,51 @@ body {
 .h_1 {
   font-size: 24px;
 }
+
+.home {
+  background-image: url(../img/campoo.jpg);
+  display: flex;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.in-flex {
+  flex: 1;
+  min-width: 250px;
+  color: white;
+}
+
+.in-flex:first-child {
+  flex: 2;
+  padding: 25px;
+  background-color: black;
+  margin: 20px;
+  margin-bottom: 0px;
+  color: white;
+  border-radius: 15px;
+}
+
+.in-flex div {
+  padding: 25px;
+  background-color: black;
+  margin: 20px;
+  color: white;
+  border-radius: 15px;
+}
+
+.titulo_div {
+  color: salmon;
+  font-size: 18px;
+  font-family: tahoma;
+}
+
+#uno {
+  height: 300px;
+}
+
+.sobre_nosotros {
+  margin-top: 30px;
+}
