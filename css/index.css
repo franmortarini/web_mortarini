@@ -20,6 +20,7 @@ body {
 #parrafo {
   color: brown;
   font-family: cursive;
+  margin-top: 40px;
 }
 
 @media (max-widht: 768px) {
@@ -38,6 +39,7 @@ body {
 
 .parrafo_footer {
   font-family: Geneva;
+  font-size: 14px;
 }
 
 .parrafo_article {
@@ -47,11 +49,12 @@ body {
 .estilo_parrafo {
   color: brown;
   text-align: justify;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .estilo_parrafo_dos {
-  font-size: 14px;
+  margin-bottom: 30px;
+  font-size: 18px;
 }
 
 .h_2 {
@@ -78,18 +81,10 @@ body {
 }
 
 .formu_cont {
-  padding-top: 110px;
+  padding-top: 60px;
   padding-right: 0px;
   padding-left: 0px;
-  margin-top: 20px;
-}
-
-.h2formu {
-  color: black;
-  font-size: 40px;
-  font-family: Geneva;
-  padding-bottom: 20px;
-  margin-bottom: 40px;
+  margin-top: 10px;
 }
 
 .contact-box {
@@ -106,7 +101,6 @@ body {
 
 #contact-text {
   text-align: left;
-  font-family: Geneva;
 }
 
 .icono {
@@ -116,11 +110,13 @@ body {
 
 .h1_index {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 100px;
 }
 
 .h_1 {
-  font-size: 24px;
+  font-size: 36px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .home {
@@ -136,37 +132,50 @@ body {
 .in-flex {
   flex: 1;
   min-width: 250px;
-  color: white;
 }
 
 .in-flex:first-child {
   flex: 2;
   padding: 25px;
-  background-color: black;
+  background-color: gainsboro;
   margin: 20px;
   margin-bottom: 0px;
-  color: white;
   border-radius: 15px;
 }
 
 .in-flex div {
   padding: 25px;
-  background-color: black;
+  background-color: gainsboro;
   margin: 20px;
-  color: white;
   border-radius: 15px;
 }
 
 .titulo_div {
-  color: salmon;
+  color: brown;
   font-size: 18px;
   font-family: tahoma;
 }
 
 #uno {
-  height: 300px;
+  height: 400px;
 }
 
 .sobre_nosotros {
   margin-top: 30px;
+}
+
+#parrafo2 {
+  margin-bottom: 60px;
+}
+
+#s_n {
+  margin-bottom: 80px;
+}
+
+#jubi {
+  margin-top: 40px;
+}
+
+#formu_label {
+  margin-right: 40px;
 }
